@@ -1,0 +1,42 @@
+.header-wrapper {
+  float: left;
+  width: 12%;
+}
+.search-button-wrapper {
+  margin: 0 auto;
+  display: table;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.header-navigation-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #d48675, #bc5ed3, #6882d7);
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: headerAnimation 3s infinite alternate;
+}
+
+.navigation {
+  display: flex;
+}
+
+.link {
+  margin-right: 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.home-icon {
+  border: 2px solid #fff;
+}

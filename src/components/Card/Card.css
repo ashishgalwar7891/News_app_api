@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  overflow: hidden;
+  margin: 0 30px 0 30px;
+}
+
+.card-image {
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+  padding: 16px;
+  border-radius: 25%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 60%;
+  padding: 16px;
+}
+.card-source {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.card-last-updated {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.card-title a {
+  text-decoration: none;
+}
+
+.card-title:hover a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card-title a:visited {
+  text-decoration: none;
+}
