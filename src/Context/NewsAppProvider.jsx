@@ -1,6 +1,6 @@
 import axios from 'axios';
 import {useState, createContext} from 'react';
-const API_KEY = 'f463419c4e4c4ebd96549c95688e979b';
+const API_KEY = "5d2290f22f2c4823ba9a4fafd642ef31";
 const BASE_URL = `https://newsapi.org/v2/top-headlines?`;
 
 export const NewsAppContext = createContext();

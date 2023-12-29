@@ -1,12 +1,12 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
-import { timeElapsedSince } from '../Utils/timeElapsed/timeElapsed';
-import { filterAndSliceArticles } from '../Utils/filterAndSliceArticles/filterAndSliceArticles';
-import HeaderNavigationMenu from '../components/Navigation/HeaderNavigationMenu';
-import CategoryComponent from '../components/Category/Category';
-import Card from '../components/Card/Card';
-import CategoryHeader from '../components/CategoryHeader/Header';
-import Loader from '../components/Loader/Loader';
+import { timeElapsedSince } from '../Utils/timeElapsed/timeElapsed.jsx';
+import { filterAndSliceArticles } from '../Utils/filterAndSliceArticles/filterAndSliceArticles.jsx';
+import HeaderNavigationMenu from '../components/Navigation/HeaderNavigationMenu.jsx';
+import CategoryComponent from '../components/Category/Category.jsx';
+import Card from '../components/Card/Card.jsx';
+import CategoryHeader from '../components/CategoryHeader/Header.jsx';
+import Loader from '../components/Loader/Loader.jsx';
 
 const DetailsPage = () => {
     const location = useLocation();

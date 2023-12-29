@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { fetchSearchDataApi } from '../../services/api.js';
+import { fetchSearchDataApi } from '../../services/api.jsx';
 import './SearchComponent.css'
 
 const SearchComponent = () => {

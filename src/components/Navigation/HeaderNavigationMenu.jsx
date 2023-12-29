@@ -1,7 +1,7 @@
 import React from "react";
-import SearchComponent from "../Search/SearchComponent.js";
+import SearchComponent from "../Search/SearchComponent.jsx";
 import "./HeaderNavigationMenu.css";
-import Theme from "../Themes/theme.js";
+import Theme from "../Themes/theme.jsx";
 
 const HeaderNavigationMenu = ({ title }) => {
   return (

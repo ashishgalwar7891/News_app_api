@@ -2,7 +2,9 @@ import axios from "axios";
 
 export const getHeadlineByCountry = async () => {
     try {
-        const res = await axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=f463419c4e4c4ebd96549c95688e979b");
+        const res = await axios.get(
+          "https://newsapi.org/v2/top-headlines?country=in&apiKey=5d2290f22f2c4823ba9a4fafd642ef31"
+        );
         if(res){
             console.log(res.data);
         }
@@ -12,7 +14,7 @@ export const getHeadlineByCountry = async () => {
 };
 
 export const fetchSearchDataApi = async (query) => {
-  const API_KEY = "f463419c4e4c4ebd96549c95688e979b";
+  const API_KEY = "5d2290f22f2c4823ba9a4fafd642ef31";
   try {
     const data = await axios.get(
       ` https://newsapi.org/v2/everything?q=${query}&sortBy=popularity&apiKey=${API_KEY}`

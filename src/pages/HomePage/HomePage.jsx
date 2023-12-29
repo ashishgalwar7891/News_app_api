@@ -1,13 +1,13 @@
 import { default as React, useContext, useEffect, useReducer } from "react";
 import { useNavigate } from "react-router-dom";
-import HeaderNavigationMenu from "../../components/Navigation/HeaderNavigationMenu.js";
-import CategoryComponent from "../../components/Category/Category.js";
-import Card from "../../components/Card/Card.js";
-import CategoryHeader from "../../components/CategoryHeader/Header.js";
-import Loader from "../../components/Loader/Loader.js";
-import { NewsAppContext } from "../../Context/NewsAppProvider.js";
-import { timeElapsedSince } from "../../Utils/timeElapsed/timeElapsed.js";
-import { filterAndSliceArticles } from "../../Utils/filterAndSliceArticles/filterAndSliceArticles.js";
+import HeaderNavigationMenu from "../../components/Navigation/HeaderNavigationMenu.jsx";
+import CategoryComponent from "../../components/Category/Category.jsx";
+import Card from "../../components/Card/Card.jsx";
+import CategoryHeader from "../../components/CategoryHeader/Header.jsx";
+import Loader from "../../components/Loader/Loader.jsx";
+import { NewsAppContext } from "../../Context/NewsAppProvider.jsx";
+import { timeElapsedSince } from "../../Utils/timeElapsed/timeElapsed.jsx";
+import { filterAndSliceArticles } from "../../Utils/filterAndSliceArticles/filterAndSliceArticles.jsx";
 import './HomePage.css';
 
 const HomePage = () => {
@@ -59,7 +59,7 @@ const HomePage = () => {
   };
 
   const [state, dispatch] = useReducer(reducer, initialState);
-  const API_KEY = "f463419c4e4c4ebd96549c95688e979b";
+  const API_KEY = "5d2290f22f2c4823ba9a4fafd642ef31";
 
   const fetchArticles = async (category) => {
     try {

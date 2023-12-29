@@ -1,9 +1,9 @@
 import React from 'react';
 import {useContext} from 'react';
 import {useNavigate} from 'react-router-dom';
-import Button from '../Button/Button';
-import { NewsAppContext } from '../../Context/NewsAppProvider.js';
-import { categoryTokens } from '../../staticdata.js';
+import Button from '../Button/Button.jsx';
+import { NewsAppContext } from '../../Context/NewsAppProvider.jsx';
+import { categoryTokens } from '../../staticdata.jsx';
 import './Category.css';
 
 const Category = () => {

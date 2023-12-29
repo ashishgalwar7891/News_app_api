@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import HorizontalLine from '../HorizontalLine/HorizontalLine';
+import HorizontalLine from '../HorizontalLine/HorizontalLine.jsx';
 
 
 const Card = ({
